@@ -1,0 +1,159 @@
+{
+  "player": {
+    "sprite_id": "player_start",
+    "fields": []
+  },
+  "trigger": {
+    "sprite_id": "trigger",
+    "fields": [
+      "$trigger_key"
+    ]
+  },
+  "other": {
+    "sprite_id": "$sprite_id",
+    "fields": []
+  },
+  "block_1": {
+    "sprite_id": "block",
+    "fields": [
+      1
+    ]
+  },
+  "block_2": {
+    "sprite_id": "block",
+    "fields": [
+      2
+    ]
+  },
+  "block_3": {
+    "sprite_id": "block",
+    "fields": [
+      3
+    ]
+  },
+  "block_4": {
+    "sprite_id": "block",
+    "fields": [
+      4
+    ]
+  },
+  "block_5": {
+    "sprite_id": "block",
+    "fields": [
+      5
+    ]
+  },
+  "block_6": {
+    "sprite_id": "block",
+    "fields": [
+      6
+    ]
+  },
+  "block_7": {
+    "sprite_id": "block",
+    "fields": [
+      7
+    ]
+  },
+  "block_8": {
+    "sprite_id": "block",
+    "fields": [
+      8
+    ]
+  },
+  "block_9": {
+    "sprite_id": "block",
+    "fields": [
+      9
+    ]
+  },
+  "block_10": {
+    "sprite_id": "block",
+    "fields": [
+      10
+    ]
+  },
+  "block_11": {
+    "sprite_id": "block",
+    "fields": [
+      11
+    ]
+  },
+  "block_12": {
+    "sprite_id": "block",
+    "fields": [
+      12
+    ]
+  },
+  "block_13": {
+    "sprite_id": "block",
+    "fields": [
+      13
+    ]
+  },
+  "block_14": {
+    "sprite_id": "block",
+    "fields": [
+      14
+    ]
+  },
+  "block_15": {
+    "sprite_id": "block",
+    "fields": [
+      15
+    ]
+  },
+  "block_16": {
+    "sprite_id": "block",
+    "fields": [
+      16
+    ]
+  },
+  "spike": {
+    "sprite_id": "spike",
+    "fields": [
+      "$rotation"
+    ]
+  },
+  "save": {
+    "sprite_id": "save",
+    "fields": [
+      "$max_difficulty"
+    ]
+  },
+  "warp": {
+    "sprite_id": "warp",
+    "fields": [
+      "$room",
+      "$set_difficulty"
+    ]
+  },
+  "water": {
+    "sprite_id": "water",
+    "fields": []
+  },
+  "walljump_left": {
+    "sprite_id": "walljump_left",
+    "fields": []
+  },
+  "walljump_right": {
+    "sprite_id": "walljump_right",
+    "fields": []
+  },
+  "delicious_fruit": {
+    "sprite_id": "delicious_fruit",
+    "fields": [
+      "$trigger_key"
+    ]
+  },
+  "jump_refresher": {
+    "sprite_id": "jump_refresher",
+    "fields": []
+  },
+  "sign": {
+    "sprite_id": "sign",
+    "fields": [
+      "$message"
+    ]
+  }
+}
