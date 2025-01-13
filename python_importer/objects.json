@@ -155,5 +155,13 @@
     "fields": [
       "$message"
     ]
+  },
+  "platform": {
+    "sprite_id": "platform",
+    "fields": []
+  },
+  "save_blocker": {
+    "sprite_id": "save_blocker",
+    "fields": []
   }
 }
