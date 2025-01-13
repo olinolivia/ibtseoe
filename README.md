@@ -52,3 +52,13 @@ An object in `objects.json` is represented by a JSON object (as in the little th
 The key for that object should be the ID of the matching entity **in your LDtk project**. <p>
 The string with a key of `sprite_id` should be the ID of the matching sprite **in Scratch**. <p>
 The array with a key of `fields` can hold strings, numbers, and nulls. It represents the parameters that are passed onto your object, in order. If a string in it starts with `$`, what follows it is a macro, meaning that string will be replaced by a field matching the macro name, pulled from the object in your LDtk level.
+
+### Tags
+Certain shared behaviors between sprites can easily be toggled on or off by adding or removing your sprite's name from a Scratch list. There are 4 built-in tags, here are the names and functions of each one:
+
+| Tag list name | Description |
+| --- | --- |
+| tag.bullet_blocker | Makes bullets disappear upon collision |
+| tag.hazard | Makes the player die upon collision |
+| tag.semisolid | Makes the player land on, yet go through a platform |
+| tag.solid | Makes the player land on, run into and bonk on a platform |
