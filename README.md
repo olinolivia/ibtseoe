@@ -43,7 +43,7 @@ Here is a table of all the parameters of the built-in objects that have them.
 | `sign` | Sign text (String) |
 
 ## Creating your own objects
-Creating an object is as simple as duplicating the template sprite, picking the spawn routine that fits it best (what each is for is commented above them on the original template but comments don't make it through duplications). If you want any parameters to be passed to your object, read from the list `place_object.parameters` on the frame of your clone's creation. <p>
+Creating an object is as simple as duplicating the template sprite and setting the object ID in the spawn routine (where it by default says `OBJECT NAME HERE`). If you want any parameters to be passed to your object, read from the list `place_object.parameters`. <p>
 If you are using the LDtk importer, you will also have to create a matching entity for it in the LDtk app, as well as describe it in the `objects.json` file in the Python script's working directory.
 
 ### How to make an `objects.json` entry
