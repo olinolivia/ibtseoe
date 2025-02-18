@@ -36,7 +36,7 @@ Here is a table of all the parameters of the built-in objects that have them.
 | --- | --- | --- |
 | `trigger` | Trigger key (String) |
 | `block` | Costume # (Integer) | 
-| `spike` | Direction (String\|null) |
+| `spike` | Direction (String) |
 | `delicious_fruit` | Trigger key (String) |
 | `save` | Max difficulty (String) |
 | `warp` | Room number (Integer) | Set difficulty (String\|null) |
